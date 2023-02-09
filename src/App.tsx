@@ -1,7 +1,9 @@
 import React from 'react';
 
+import { Navbar } from 'layouts';
+
 function App() {
-  return <h1 className="text-4xl font-bold">HuyBank</h1>;
+  return <Navbar />;
 }
 
 export default App;
